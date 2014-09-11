@@ -41,9 +41,9 @@ class Die//models one single dice cube
 		textMode(CENTER);
 		stroke(0);
 		fill(255);
-		
 		rect(x, y, 50, 50);
-		fill(0);text(res, x, y+60);
+		fill(0);
+		text(res, x, y+60);
 		if(res == 1){
 			ellipse(x, y, 5, 5);
 		}else if(res == 2){
